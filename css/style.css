@@ -56,6 +56,106 @@ h2 {
   font-family: "Typewriter", "Calibri-light", sans-serif;
 }
 
+/* AUTHOR POPUP */
+
+.author-popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.60)
+}
+
+.popup-content {
+  height: 100%;
+  width: 100%;
+  /* background:
+    linear-gradient(290deg, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 41% / 72% 28%,
+    linear-gradient(326deg, #14213D 63%, rgba(255,0,0,0) 63%) 100% 100% / 100% 50%,
+    linear-gradient(346deg, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 11% / 42% 52%;
+  background-repeat: no-repeat; */
+}
+
+.popup-content > .rect1 {
+  z-index: 1002;
+  position: fixed;
+  background-color: #233A6C;
+  height: 105%;
+  width: 600px;
+  top: -25%;
+  right: 500px;
+  -webkit-transform: rotate(25deg);
+        -moz-transform: rotate(25deg);
+        -o-transform: rotate(25deg);
+        transform: rotate(25deg);
+}
+
+.popup-content > .rect2 {
+  z-index: 1002;
+  position: fixed;
+  background-color: #233A6C;
+  height: 90%;
+  width: 300px;
+  top: -15%;
+  right: 200px;
+  -webkit-transform: rotate(25deg);
+        -moz-transform: rotate(25deg);
+        -o-transform: rotate(25deg);
+        transform: rotate(25deg);
+}
+
+.popup-content > .rect3 {
+  position: fixed;
+  background-color: #FCA311;
+  height: 110%;
+  width: 400px;
+  top: -20%;
+  right: 600px;
+  -webkit-transform: rotate(-25deg);
+        -moz-transform: rotate(-25deg);
+        -o-transform: rotate(-25deg);
+        transform: rotate(-25deg);
+}
+
+.popup-all-content {
+  position: absolute;
+  display: flex;
+  z-index: 1004;
+  color: white;
+  max-width: 700px;
+  text-align: end;
+  top: 17%;
+  right: 400px;
+}
+
+.popup-inner-content {
+  padding-top: 40px;
+}
+
+.popup-inner-content > h1 {
+  font-family: "Typewriter", "Calibri-light", sans-serif;
+  color: #FCA311;
+}
+
+.popup-inner-content > p {
+  font-family: "Calibri-light", sans-serif;
+}
+
+.popup-inner-content > button {
+  border: none;
+  background-color: #14213D;
+  color: #FFFFFF;
+  font-weight: 800;
+  font-size: 18px;
+  opacity: 80%;
+  padding-inline: 20px;
+}
+
+
+
+/* end of author popup */
+
 /*header section*/
 .hero_area {
   height: 100vh;
@@ -168,7 +268,7 @@ a:focus {
 }
 
 .custom_nav-container {
-  z-index: 99999;
+  z-index: 100;
   padding: 5px 0;
 }
 

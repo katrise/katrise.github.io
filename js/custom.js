@@ -18,5 +18,13 @@ function myMap() {
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
 }
 
-/** Carousel */
+/** Popup-window */
+
+function openPop() {
+    document.getElementById("author-popup").style.display = "block";
+  }
+  
+  function closePop() {
+    document.getElementById("author-popup").style.display = "none";
+  }
 

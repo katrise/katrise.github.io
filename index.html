@@ -25,7 +25,24 @@
 </head>
 
 <body>
-
+  <div id="author-popup" class="author-popup">
+    <div class="popup-content">
+      <span class="rect1"></span>
+      <span class="rect2"></span>
+      <span class="rect3"></span>
+      <div class="popup-all-content">
+        <img src="images/main/author-FINISHED.png" alt="" height="500px">
+        <div class="popup-inner-content">
+          <button class="close-button" onclick="closePop()" type="button">x</button>
+          <h1>Krista Hotuļeva</h1>
+          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+              Neque ornare aenean euismod elementum.
+          </p>
+        </div>
+        </div>
+    </div>
+  </div>
   <div class="hero_area">
     <!-- header section strats -->
     <header class="header_section">
@@ -42,7 +59,7 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center"></div>
             <div class="quote_btn-container ">
               <form class="form-inline">
-                <button type="submit">Author</button>
+                <button type="button" onclick="openPop()">Author</button>
               </form>
             </div>
             <div class="lang-change">
