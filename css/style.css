@@ -210,6 +210,22 @@ a:focus {
   margin: 0 25px;
 }
 
+.lang-change {
+  padding-right: 10px;
+}
+
+.lang-switch-bttn {
+  font-family: 'Typewriter';
+  border: none;
+  color: #FCA311;
+  padding: 0;
+  background-color: #233A6C;
+}
+
+.seperator {
+  color: #FCA311;
+}
+
 /*end header section*/
 /* slider section */
 
