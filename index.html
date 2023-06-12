@@ -87,7 +87,7 @@
             <div class="lang-change">
               <button class="lang-switch-bttn lat-lang" onclick="switchToLat()" type="button">LV</button>
               <span class="seperator">/</span>
-              <button class="lang-switch-bttn en-lang" onclick="switchToEng()" type="button">EN</button>
+              <button class="en-lang lang-switch-bttn" onclick="switchToEng()" type="button">EN</button>
             </div>
           </div>
         </nav>
@@ -173,14 +173,14 @@
                 </p>
               </div>
 
-              <div>
-                  <a class="en" href="https://cadets.lv/">
+              <div class="en">
+                  <a href="https://cadets.lv/">
                     More info
                   </a>
               </div>
 
-              <div>
-                  <a class="lv" href="https://cadets.lv/">
+              <div class="lv">
+                  <a href="https://cadets.lv/">
                     Uzzināt vairāk
                   </a>
               </div>
@@ -226,14 +226,14 @@
                 </p>
               </div>
              
-              <div>
-                <a class="en" href="https://lv.wikipedia.org/wiki/Zemit%C4%81na_laukums">
+              <div class="en">
+                <a href="https://lv.wikipedia.org/wiki/Zemit%C4%81na_laukums">
                   More info
                 </a>
               </div>
 
-              <div>
-                  <a class="lv" href="https://lv.wikipedia.org/wiki/Zemit%C4%81na_laukums">
+              <div class="lv">
+                  <a href="https://lv.wikipedia.org/wiki/Zemit%C4%81na_laukums">
                     Uzzināt vairāk
                   </a>
               </div>
@@ -263,7 +263,7 @@
           <div class="col-md-6  px-5">
             <div class="detail-box">
               <div class="heading_container">
-                <h2>
+                <h2 class="en">
                   VEF Culture palace
                 </h2>
 
@@ -296,14 +296,14 @@
                 </p>
               </div>
 
-              <div>
-                <a class="en" href="https://www.vefkp.lv/">
+              <div class="en">
+                <a href="https://www.vefkp.lv/">
                   More info
                 </a>
               </div>
 
-              <div>
-                <a class="lv" href="https://www.vefkp.lv/">
+              <div class="lv">
+                <a href="https://www.vefkp.lv/">
                   Uzzināt vairāk
                 </a>
               </div>
@@ -322,30 +322,101 @@
   <section class="client_section">
     <div class="container">
       <div class="heading_container">
-        <h2> 
+        <h2 class="en"> 
+          Tea and Coffee shop - Chai
+        </h2>
+
+        <h2 class="lv"> 
           Tējas un Kafijas veikals - Chai
         </h2>
       </div>
-      <h4 class="secondary_heading">
+      <h4 class="en secondary_heading">
         In my humble opinion - best coffee in the city
+      </h4>
+
+      <h4 class="lv secondary_heading">
+        Manuprāt, labākā kafija pilsētā
       </h4>
       <div class="slider">
         <input type="radio" name="slider" title="slide1" checked="checked" class="slider__nav"/>
         <input type="radio" name="slider" title="slide2" class="slider__nav"/>
-        <input type="radio" name="slider" title="slide3" class="slider__nav"/>
+        <!-- <input type="radio" name="slider" title="slide3" class="slider__nav"/> -->
         <div class="slider__inner">
           <div class="slider__contents"><i class="slider__image fa fa-codepen"></i>
             <img src="images/main/teja-kafija-FINISHED.png" class="h-75" alt="">
-            <p class="slider__txt">Lorem ipsum dolor sit amet, eum ex scaevola posidonium cotidieque, qui agam veniam inimicus ei. In malis latine elaboraret his. Mea ut exerci expetendis conclusionemque, exerci mandamus concludaturque no usu, no lorem omittam his. Enim mandamus eu sea, ea nec nobis vitae. Ex exerci regione quo, ei aperiam equidem cum.</p>
+
+            <div class="en">
+              <p class="slider__txt">Now comes one of my favorite spots of all time, the tea and coffee shop "Chai". 
+                In my opinion best coffee can be bought here and for the past year I've been religiously buying my coffee only here.
+                I have yet to try tea here, but I have subjected many of my friends to try the coffee and have yet to hear of someone 
+                disliking it. <br>
+                I have to mention that I have not tried any beverages they offer on the go, I have only bought coffee to enjoy at
+                home.
+              </p>
+            </div>
+
+            <div class="lv">
+              <p class="slider__txt">Visbeidzot, droši vien mana mīļākā vieta visā sarakstā - tējas un kafijas veikals "Chai".
+                Manuprāt, labāko kafiju var nopirkt tieši šeit un pēdējo gadu es reliģioziski savu kafiju iepērku tikai šajā veikalā.
+                Man vēl ir jāpamēģina viņu piedāvātā tēja, taču esmu piespiedusi daudzus no saviem draugiem pamēģināt šīs vietas kafiju
+                un tik tālu neesmu dzirdējusi vel nevienu sliktu vārdu. <br>
+                Gan jāpiebilst, ka uz vietas gatavoto kafiju neesmu vēl mēģinājusi, tikai pirkusi mājās pagatavojamo kafiju.
+              </p>
+            </div>
+
           </div>
           <div class="slider__contents"><i class="slider__image fa fa-newspaper-o"></i>
-            <h2 class="slider__caption">Kafija</h2>
-            <p class="slider__txt">Mel cu etiam liber, minim causae quo eu. Dicit labore eu nam, vis eius facilisis ei, vix ipsum novum tollit cu. In omnis postulant principes ius, qui illud ullum soluta ea, duo no vituperata mediocritatem. Eos ne libris efficiantur, ex nulla instructior eum.</p>
+            <div class="en">
+              <h4><b>Coffees that I have tried</b></h4>
+              <h4>"Mozart"</h4>
+              <p class="slider__txt">This is my current favorite from the ones I have tried. There's chocolate aroma with
+                a light nutty flavour. Every cup is like a small little dessert.
+              </p>
+              <h4>"French silk"</h4>
+              <p class="slider__txt">This is one of my newest discoveries, after I was finally ready to try something else besides
+                Mozart. I was pleasantly surprised by the milk chocolate flavour.<br> I'm still not quite sure whether this coffee
+                is just as good as Mozart.
+              </p>
+              <h4>"White heather irises"</h4>
+              <p class="slider__txt">In my opinion the taste is a little eccentric. Some days I quite enjoy it, other days it's not
+                really my favorite. Maybe I'm just not that big of a fan of the iris flavour. However, this rating scale of mine is already
+                way higher than that of an average coffee.
+              </p>
+
+              <div class="en">
+                <a class="chai-button" href="https://www.facebook.com/TejasunKafijas/">
+                  More info
+                </a>
+              </div>
+            </div>
+
+            <div class="lv">
+              <h4><b>Kafijas, ko esmu izmēģinājusi</b></h4>
+              <h4>"Mozart"</h4>
+              <p class="slider__txt">Šī ir mana mīļākā no visām, ko tik tālu esmu nogaršojusi. Šokolādes aromātika ar 
+                vieglu riekstu garšu, katra kafijas krūze ir kā mazs deserts.
+              </p>
+              <h4>"Franču zīds"</h4>
+              <p class="slider__txt">Šis ir viens no maniem jaunatklājumiem, kad sajutos gatava pamēģināt ko jaunu, kas nav Mozart.
+                Biju patīkami pārsteigta par vieglo šokolādes garšu.<br> Vēljoprojām, neesmu pārliecināta vai sliktāka par Mozartu vai turas stabili blakus.
+              </p>
+              <h4>"Baltie Viršu īrisi"</h4>
+              <p class="slider__txt">Manuprāt, īpatnēja garša. Dažas dienas man tā patīk, citas nav mans favorīts. Varbut man vienkārši nepatīk īrisi.
+                Taču jāņem vērā, ka šī kafija ir jau augstākā skalā par parasto kafiju.
+              </p>
+
+              <div class="lv">
+                <a class="chai-button" href="https://www.facebook.com/TejasunKafijas/">
+                  Uzzināt vairāk
+                </a>
+              </div>
+
+            </div>
           </div>
-          <div class="slider__contents"><i class="slider__image fa fa-television"></i>
+          <!-- <div class="slider__contents"><i class="slider__image fa fa-television"></i>
             <h2 class="slider__caption">Tēja</h2>
             <p class="slider__txt">Has sale intellegebat delicatissimi ut, mea veri posidonium no, ne qui deserunt senserit accommodare. Eam id autem facer dignissim, ea aeterno luptatum nam. Maiorum tincidunt ne eos, saepe deserunt an pri, ut sit exerci delicata. Cu pri putant ocurreret, altera scribentur ut vix. Ne vis impetus aeterno.</p>
-          </div>
+          </div> -->
         </div>
       </div>
     </div>
@@ -374,14 +445,37 @@
                 </div>
               </div>
               <div class="detail-box">
-                <p>
-                  Has sale intellegebat delicatissimi ut, mea veri posidonium no, ne qui deserunt senserit accommodare. Eam id autem facer dignissim, ea aeterno luptatum nam. Maiorum tincidunt ne eos, saepe deserunt an pri, ut sit exerci delicata. Cu pri putant ocurreret, altera scribentur ut vix. Ne vis impetus aeterno.
+                
+                <p class="en">
+                  If I ever get hungry on my way, I know there's a perfect place waiting not that 
+                  far away from university - bistro "Vistiņas". It's quite a small space but it packs
+                  more flavour and affordability than most places in Riga. It's a students dream - big protions, tasty food
+                  and low prices. It's definitely a place I choose to go to if I'm hungry before school.
                 </p>
-                <div class="d-flex pt-4">
-                  <a href="" class="price_btn">
-                    More info
-                  </a>
+
+                <p class="lv">
+                  Ja es kādreiz ceļā jūtos izsalkusi es zinu, ka netālu no universitātes ir perfekta vieta izsalkuma remdēšanai
+                  - bistro "Vistiņas". Tai ir diezgan mazs interjera apmērs, bet tās ēdiena garša un cena ir labāka
+                  kā vairums citu ēdināšanas iestāžu Rīga. Šī vieta ir viss, ko students var vēlēties - lielas porcijas, garšīgs
+                  ēdiens un lētas cenas. Tā noteikti ir vieta, kur paēst pirms lekcijām.
+                </p>
+
+                <div class="en">
+                  <div class="d-flex pt-4">
+                    <a class="price_btn" href="https://restaurantguru.com/Vistinas-Riga">
+                      More info
+                    </a>
+                  </div>
                 </div>
+  
+                <div class="lv">
+                  <div class="d-flex pt-4">
+                    <a  class="price_btn" href="https://restaurantguru.com/Vistinas-Riga">
+                      Uzzināt vairāk
+                    </a>
+                  </div>
+                </div>
+
               </div>
             </div>
           </div>
@@ -389,40 +483,47 @@
             <div class="client_container">
               <div class="client-id">
                 <div class="img-box">
-                  <img src="images/main/bistro-FINISHED.png" alt="">
+                  <img src="images/main/bistro_review_FINISHED.png" alt="">
                 </div>
               </div>
               <div class="detail-box">
-                <p>
-                  Mel cu etiam liber, minim causae quo eu. Dicit labore eu nam, vis eius facilisis ei, vix ipsum novum tollit cu. In omnis postulant principes ius, qui illud ullum soluta ea, duo no vituperata mediocritatem. Eos ne libris efficiantur, ex nulla instructior eum.
+
+                <p class="en">
+                  If you don't want to take my word for it, check out the reviews that I gathered from Google.
+                  It's not just me that knows how good this place is and I believe anyone that goes there will
+                  find out for themselves. <br>
+                  I am also trying to keep them in business with this advertisiment, so I could keep getting this
+                  amazing food.
                 </p>
-                <div class="d-flex pt-4">
-                  <a href="" class="price_btn">
-                    More info
-                  </a>
+
+                <p class="lv">
+                  Ja jūs neticat man, tad man ir pierādījumi, kas apliecina manis sacīto. Esmu apkopojusi atsauksmes no
+                  cilvēku publikācijām Google maps. Tā neesmu tikai es, kas apzināš šīs vietas burvību, ticu, ka jebkurš, kurš 
+                  šai vietai dod iespēju, uzzina, cik fantastiska tā ir. <br>
+                  Es arī daļeji cenšos palīdzēt viņu biznesam ar šo reklāmu, lai es varētu turpināt iegādāties šo fantastisko
+                  ēdinu.
+                </p>
+
+                <div class="en">
+                  <div class="d-flex pt-4">
+                    <a class="price_btn" href="https://restaurantguru.com/Vistinas-Riga">
+                      More info
+                    </a>
+                  </div>
                 </div>
+  
+                <div class="lv">
+                  <div class="d-flex pt-4">
+                    <a  class="price_btn" href="https://restaurantguru.com/Vistinas-Riga">
+                      Uzzināt vairāk
+                    </a>
+                  </div>
+                </div>
+  
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <<div class="client_container">
-              <div class="client-id">
-                <div class="img-box">
-                  <img src="images/main/bistro-FINISHED.png" alt="">
-                </div>
-              </div>
-              <div class="detail-box">
-                <p>
-                  Lorem ipsum dolor sit amet, eum ex scaevola posidonium cotidieque, qui agam veniam inimicus ei. In malis latine elaboraret his. Mea ut exerci expetendis conclusionemque, exerci mandamus concludaturque no usu, no lorem omittam his. Enim mandamus eu sea, ea nec nobis vitae. Ex exerci regione quo, ei aperiam equidem cum.
-                </p>
-                <div class="d-flex pt-4">
-                  <a href="" class="price_btn">
-                    More info
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -465,9 +566,6 @@
                     for me and my friends around 2 years ago. Me and my friends do meet up here sometimes to enjoy a cup of coffee or a glass
                     of wine and discuss everything.
                   </p>
-                  <p>
-                    Not much is said about this bar on the internet, if you know it, you know it.
-                  </p>  
                 </div>
 
                 <div class="lv">
@@ -481,20 +579,17 @@
                     gadiem šī bija manas draugu grupas TĀ vieta, kur piestāt. Ar draugiem šad tad vēl mēdzam šeit satikties uz kafiju vai
                     vīna glāzi, lai apspriestu jaunumus.
                   </p>
-                  <p>
-                    Internetā par šo vietu daudz nav teikts, ja tu to zini, tad tu zini.
-                  </p>  
                 </div>
 
 
-                <div>
-                  <a class="en" href="https://www.facebook.com/exchomskybar/">
+                <div class="en">
+                  <a href="https://www.facebook.com/exchomskybar/">
                     More info
                   </a>
                 </div>
   
-                <div>
-                  <a class="lv" href="https://www.facebook.com/exchomskybar/">
+                <div class="lv">
+                  <a href="https://www.facebook.com/exchomskybar/">
                     Uzzināt vairāk
                   </a>
                 </div>              </div>

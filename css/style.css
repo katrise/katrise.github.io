@@ -678,6 +678,22 @@ a:focus {
   border-color: #FCA311;
 }
 
+.chai-button {
+  font-family: "Typewriter", sans-serif;
+  display: inline-block;
+  padding: 8px 40px;
+  background-color: #14213D;
+  border: 1px solid #14213D;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.chai-button:hover {
+  background-color: transparent;
+  color: #FCA311;
+  border-color: #FCA311;
+}
+
 .about_section h2 {
   color: #FCA311
 }
@@ -944,7 +960,7 @@ a:focus {
   position: absolute;
   top: 0;
   left: 0;
-  width: 300%;
+  width: 200%;
   height: 100%;
   -webkit-transition: left 0.4s;
   transition: left 0.4s;
