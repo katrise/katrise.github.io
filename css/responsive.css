@@ -21,13 +21,80 @@
 }
 
 @media (max-width: 768px) {
+  .container {
+    padding: 0;
+  }
+
   .hero_area {
-    background-position: top left;
+    /* background-position: top left; */
     height: auto;
   }
 
   .slider_section {
-    padding: 45px 0;
+    height: 600px;
+    padding: 0;
+  }
+
+  .landing-background {
+    background: linear-gradient(3216deg, #14213D 63%, rgba(255,0,0,0) 63%) 100% 100% / 100% 61%, 
+                linear-gradient(0, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 63% / 100% 38%;
+    background-repeat: no-repeat;
+  }
+
+  .detail_box {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cadets-background {
+    background: linear-gradient(291deg, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 26% / 136% 21%,
+    linear-gradient(0, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 100% / 100% 93%,
+    linear-gradient(349deg, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 14% / 47% 20%;
+    background-repeat: no-repeat;
+  }
+
+  .cadets-content {
+    padding-block: 20px;
+  }
+
+  .zemitana-container {
+    height: fit-content;
+  }
+
+  .vef-section .about_cbg_contain{
+    position: unset;
+  }
+
+  .vef-background {
+    background: 
+    linear-gradient(157deg, #233A6C 63%, rgba(255,0,0,0) 61%) 111% 16% / 53% 154%,    
+    linear-gradient(191deg, #233A6C 63%, rgba(255,0,0,0) 63%) 0 0 / 53% 146%;
+    background-repeat: no-repeat;
+  }
+
+  .slider__contents {
+    padding: 3rem 2rem;
+  }
+
+  .slider__contents > img {
+    padding-top: 40px;
+  }
+
+  .slider {
+    overflow: visible;
+    margin-bottom: 40px;
+  }
+
+  .ce-background {
+    background: linear-gradient(204deg, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 96% / 238% 43%,    
+    linear-gradient(0, #233A6C 63%, rgba(255,0,0,0) 63%) 102% -223% / 100% 86%;
+    background-repeat: no-repeat;
+  }
+
+  .ce-section .en, .ce-section .lv {
+    margin-bottom: 10px;
   }
 
   .contact_section button {
@@ -38,6 +105,10 @@
 
   .contact_section form {
     padding: 0;
+  }
+
+  .client_section {
+    padding-bottom: 0;
   }
 
   .client_section .client_container {
