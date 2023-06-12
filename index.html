@@ -35,12 +35,33 @@
         <div class="popup-inner-content">
           <button class="close-button" onclick="closePop()" type="button">x</button>
           <h1>Krista Hotuļeva</h1>
-          <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-              Neque ornare aenean euismod elementum.
-          </p>
+          <div class="en">
+            <p> Computer science student currently in her third year of studies. 
+              Nowadays she's busying herself exploring life's offers, not only in the field
+              of IT, but in various other arts, at the moment - acting. She has a background
+              in arts as she has graduated her hometown's local music and arts school with a 
+              diploma in both plastic arts and piano studies as well as several diplomas
+              from local city's art olympiads. <br>
+            </p>
+            <p>
+              "These are the prime years to be all over the place, which is exactly what I am." - Krista
+            </p>
+          </div>
+          <div class="lv">
+            <p> Datorzinātņu studente, kura šobrīd ir 3. studiju gadā.
+              Pagaidām viņa savu laiku aizpilda pētot dažādos dzīves piedāvājumus ne tikai
+              IT nozarē, bet arī mākslās, dotajā brīdī tieši aktiermākslas nozarē.
+              Viņai ir pieredze mākslas nozarēs, jo ir pabeigusi savas dzimtās vietas mūzikas
+              un mākslas skolu ar diplomu gan plastiskajās mākslās, gan klavierspēlē, kā arī
+              viņa ir ieguvusi pāris diplomus vietējās pilsētas olimpiādēs. <br>
+            </p>
+            <p>
+              "Šie ir primārie gadi mētāties apkārt, kas ir tieši tas, ko es daru." - Krista
+            </p>
+          </div>
+
         </div>
-        </div>
+      </div>
     </div>
   </div>
   <div class="hero_area">
@@ -59,13 +80,14 @@
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center"></div>
             <div class="quote_btn-container ">
               <form class="form-inline">
-                <button type="button" onclick="openPop()">Author</button>
+                <button class="en" type="button" onclick="openPop()">Author</button>
+                <button class="lv" type="button" onclick="openPop()">Autore</button>
               </form>
             </div>
             <div class="lang-change">
-              <button class="lang-switch-bttn lat-lang" type="button">LV</button>
+              <button class="lang-switch-bttn lat-lang" onclick="switchToLat()" type="button">LV</button>
               <span class="seperator">/</span>
-              <button class="lang-switch-bttn en-lang" type="button">EN</button>
+              <button class="lang-switch-bttn en-lang" onclick="switchToEng()" type="button">EN</button>
             </div>
           </div>
         </nav>
@@ -84,11 +106,16 @@
                 <div class="col-md-6 pb-md-5">
                   <div class="detail_box">
                     <h2>
-                      <span>Practical work</span>
+                      <span class="en" >Practical work</span>
+                      <span class="lv" >Praktiskais darbs</span>
                     </h2>
-                    <h1>
+                    <h1 class="en">
                       My road to University of Latvia
                     </h1>
+                    <h1 class="lv">
+                      Mans ceļš uz Latvijas Universitāti
+                    </h1>
+
                   </div>
                 </div>
                 <div class="col-md-6 h-100 landing-cover"> </div>
@@ -115,26 +142,49 @@
           </div>
           <div class="col-md-6  px-4">
             <div class="detail-box cadets-content">
+
               <div class="heading_container">
                 <h2>
                   Cadets de Gascogne
                 </h2>
               </div>
+
+              <div class="en">
                 <p>
-                  Lorem ipsum dolor sit amet, eum ex scaevola posidonium cotidieque, qui agam veniam inimicus ei. In malis latine elaboraret his. Mea ut exerci expetendis conclusionemque, exerci mandamus concludaturque no usu, no lorem omittam his. Enim mandamus eu sea, ea nec nobis vitae. Ex exerci regione quo, ei aperiam equidem cum. <br>
+                  "Cadets de Gascogne is the first french bakery in Latvia and has been working since the year 1999. Every Cadets de Gascogne shop has its own charm, where every morning fresh pastries and confectionaries are prepared. It's no secret that our butter croissants are very often regarded as the tastiest in Latvia."
                 </p>
                 <p>
-                  Mel cu etiam liber, minim causae quo eu. Dicit labore eu nam, vis eius facilisis ei, vix ipsum novum tollit cu. In omnis postulant principes ius, qui illud ullum soluta ea, duo no vituperata mediocritatem. Eos ne libris efficiantur, ex nulla instructior eum.
+                  That's what the bakery says about itself on their website, however I fell in love with this place primarily because of their coffee, which I try to start my road to university with to make myself just a little happier.
                 </p>
                 <p>
-                  Has sale intellegebat delicatissimi ut, mea veri posidonium no, ne qui deserunt senserit accommodare. Eam id autem facer dignissim, ea aeterno luptatum nam. Maiorum tincidunt ne eos, saepe deserunt an pri, ut sit exerci delicata. Cu pri putant ocurreret, altera scribentur ut vix. Ne vis impetus aeterno.
+                  I have to credit my best friend for the discovery of this place, she's sort of a self-proclaimed coffee connoisseur and since in her company I have yet to enjoy a foul tasting coffee I trusted her and came to discover this place, which turns out is not so far away from my current home.
                 </p>
-                <div>
-                  <a href="">
+              </div>
+
+              <div class="lv">
+                <p>
+                  "Cadets de Gascogne ir pirmā franču maiznīca Latvijā, un strādā kopš 1999.gada. Katra Cadets de Gascogne kafejnīca ir ar savu šarmu, kurās ik rītu tiek gatavotas svaigas smalkmaizītes un konditorejas izstrādājumi. Nav noslēpums, ka mūsu sviesta kruasāni ļoti bieži tiek atzīti par Latvijā garšīgākajiem."
+                </p>
+                <p>
+                  Tā par maiznīcu aprakstīts maiznīcas mājaslapā, taču šo vietu iemīlēju tieši viņu kafijas dēļ ar kuru es arī cenšos uzsākt savu ceļu uz universitāti, lai dotos uz mācību vietu nedaudz priecīgāka.
+                </p>
+                <p>
+                  Par šīs vietas iepazīšanu man ir jāpateicas savai labākajai draudzenei, kura ir tāds kā pašpasludināts kafijas eksperts un tā kā līdz šim viņas pavadībā nēesmu dzērusi sliktu kafiju, tad es uzticējos viņai un nonācu līdz šai burvīgajai vietai, kura izrādās ir pavisam netālu no manām šī brīža mājām.
+                </p>
+              </div>
+
+              <div>
+                  <a class="en" href="https://cadets.lv/">
                     More info
                   </a>
-                </div>
               </div>
+
+              <div>
+                  <a class="lv" href="https://cadets.lv/">
+                    Uzzināt vairāk
+                  </a>
+              </div>
+              
             </div>
           </div>
         </div>
@@ -150,21 +200,44 @@
           <div class="col-md-6  pl-5">
             <div class="detail-box">
               <div class="heading_container">
-                <h2>
+                <h2 class="en">
+                  Zemitāns square
+                </h2>
+                <h2 class="lv">
                   Zemitāna laukums
                 </h2>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet, eum ex scaevola posidonium cotidieque, qui agam veniam inimicus ei. In malis latine elaboraret his. Mea ut exerci expetendis conclusionemque, exerci mandamus concludaturque no usu, no lorem omittam his <br>
-              </p>
-              <p>
-                Mel cu etiam liber, minim causae quo eu. Dicit labore eu nam, vis eius facilisis ei, vix ipsum novum tollit cu. In omnis postulant principes ius, qui illud ullum soluta ea, duo no vituperata mediocritatem.
-              </p>
+
+              <div class="en">
+                <p>
+                  On the way, whether I like it or not, I have to go through Zemitāns square, about which I honestly learned more only during my research in this project. However I have particulary vivid memories in this area because of the people I've encountered. For example, once when I was going through here a random man roared in my face and then went on his merry way. Why? I don't know either.
+                </p>
+                <p>
+                  Zemitāns square is a square in Teika, Vidzeme suburb in which's center is a memoir for Jorģis Zemitāns. The square was build in the 20's of 20th century.
+                </p>
+              </div>
+
+              <div class="lv">
+                <p>
+                  Ceļā, gribot vai negribot, ir jāiziet cauri Zemitāna laukumam par kuru vairāk, godīgi sakot, uzzināju tikai šī projekta izstrādes laikā. Taču ļoti spilgtas atmiņas ar šo laukumu asociējas tieši ar dažādiem nejaušiem incidentiem ar apkārt esošajiem cilvēkiem. Piemēram, vienreiz dodoties cauri šim laukumam kāds svešs vīrietis man iekliedza sejā un aizgāja mierīgi tālāk savās gaitās. Kāpēc? Man arī nav ne jausmas.
+                </p>
+                <p>
+                  Zemitāna laukums ir laukums Teikā, Vidzemes Priekšpilsētā kura vidū atrodas piemineklis pulkvedim Jorģim Zemitānam. Laukums izveidots 20. gadsimta 20. gadu beigās.
+                </p>
+              </div>
+             
               <div>
-                <a href="">
+                <a class="en" href="https://lv.wikipedia.org/wiki/Zemit%C4%81na_laukums">
                   More info
                 </a>
               </div>
+
+              <div>
+                  <a class="lv" href="https://lv.wikipedia.org/wiki/Zemit%C4%81na_laukums">
+                    Uzzināt vairāk
+                  </a>
+              </div>
+
             </div>
           </div>
           <div class="col-md-6">
@@ -191,20 +264,50 @@
             <div class="detail-box">
               <div class="heading_container">
                 <h2>
+                  VEF Culture palace
+                </h2>
+
+                <h2 class="lv">
                   VEF Kultūras pils
                 </h2>
               </div>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrudLorem ipsum dolor sit amet, consectetur
-                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                veniam, quis nostrud
-              </p>
+
+              <div class="en">
+                <p>
+                  One of the architecturally most impressive objects on my path. However it offers not only aesthetic pleasure
+                  but entertainment possibilities within as well. From museum to cultural events and various activity collectives.
+                </p>
+                <p>
+                  However, this place holds a special memory of how me and my friends sat down on its grand staircase in one late winter
+                  evening and ate one of my favorite food at the time.
+                </p>
+              </div>
+
+
+              <div class="lv">
+                <p>
+                  Viens no arhitektūras iespaidīgākajiem objektiem, kurus var atrast manā ceļa posmā. 
+                  Taču objekts piedāvā ne tikai vizuālu baudu ceļā, bet arī izklaides iespējas iekš tā.
+                  No muzeja līdz pat kultūras pasākumiem, kā arī dažādu nodarbību kolektīviem. 
+                </p>
+                <p>
+                  Taču īpašas atmiņas kultūras pils man personīgi sniegusi kādā aukstā vēlas ziemas vakarā,
+                  kad ar kādu no maniem draugiem sēdējām uz tās pakāpieniem un baudījām manu tā brīža iecienītāko ēdienu.
+                </p>
+              </div>
+
               <div>
-                <a href="">
+                <a class="en" href="https://www.vefkp.lv/">
                   More info
                 </a>
               </div>
+
+              <div>
+                <a class="lv" href="https://www.vefkp.lv/">
+                  Uzzināt vairāk
+                </a>
+              </div>
+
             </div>
           </div>
         </div>
@@ -346,24 +449,55 @@
               <div class="detail-box">
                 <div class="heading_container">
                   <h2>
-                    Če
+                    Čē
                   </h2>
                 </div>
-                <p>
-                  Lorem ipsum dolor sit amet, eum ex scaevola posidonium cotidieque, qui agam veniam inimicus ei. Mea ut exerci expetendis conclusionemque, exerci mandamus concludaturque no usu, no lorem omittam his. Enim mandamus eu sea, ea nec nobis vitae. Ex exerci regione quo, ei aperiam equidem cum. <br>
-                </p>
-                <p>
-                  Mel cu etiam liber, minim causae quo eu. In omnis postulant principes ius, qui illud ullum soluta ea, duo no vituperata mediocritatem. Eos ne libris efficiantur, ex nulla instructior eum.
-                </p>
-                <p>
-                  Has sale intellegebat delicatissimi ut, mea veri posidonium no, ne qui deserunt senserit accommodare. Eam id autem facer dignissim, ea aeterno luptatum nam. Maiorum tincidunt ne eos, saepe deserunt an pri, ut sit exerci delicata. Cu pri putant ocurreret, altera scribentur ut vix. Ne vis impetus aeterno.
-                </p>
+
+                <div class="en">
+                  <p>
+                    The last stop before arriving to university is the staple <br> for the alternative community - Čē.
+                    It's a bar in the center of Riga with pretty affordable prices and unique
+                    atmosphere and music. A great place for someone to go 'chill' and relax from the day. It's the perfect
+                    stop before school, if you have time, to sit and relax and prepare yourself for oncoming stress.
+                  </p>
+                  <p>
+                    I don't stop here that often anymore, since I've been quite busy this past year. But it used to be THE spot 
+                    for me and my friends around 2 years ago. Me and my friends do meet up here sometimes to enjoy a cup of coffee or a glass
+                    of wine and discuss everything.
+                  </p>
+                  <p>
+                    Not much is said about this bar on the internet, if you know it, you know it.
+                  </p>  
+                </div>
+
+                <div class="lv">
+                  <p>
+                    Pēdējā pieturvieta ceļā ir alternatīvās komūnas ikoniskā vieta - Čē. Čē ir bārs Rīgas centrā, kurā pieejamas
+                    draudzīgas cenas un unikāla atmosfēra, mūzika. Lieliska vieta, kur atpūsties pēc garas dienas vai šajā gadījumā
+                    sagatavoties pamatīgam universitātes stresam.
+                  </p>
+                  <p>
+                    Pēdējā laikā šeit vairs neiegriežos tik bieži par cik pēdējā gada laikā esmu aizņemtāka kā jebkad. Pirms kādiem 2
+                    gadiem šī bija manas draugu grupas TĀ vieta, kur piestāt. Ar draugiem šad tad vēl mēdzam šeit satikties uz kafiju vai
+                    vīna glāzi, lai apspriestu jaunumus.
+                  </p>
+                  <p>
+                    Internetā par šo vietu daudz nav teikts, ja tu to zini, tad tu zini.
+                  </p>  
+                </div>
+
+
                 <div>
-                  <a href="">
+                  <a class="en" href="https://www.facebook.com/exchomskybar/">
                     More info
                   </a>
                 </div>
-              </div>
+  
+                <div>
+                  <a class="lv" href="https://www.facebook.com/exchomskybar/">
+                    Uzzināt vairāk
+                  </a>
+                </div>              </div>
             </div>
             <div class="col-md-6">
               <div class="img-box-v2">

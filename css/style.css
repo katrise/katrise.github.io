@@ -56,6 +56,16 @@ h2 {
   font-family: "Typewriter", "Calibri-light", sans-serif;
 }
 
+/* Language switch default */
+
+.lv {
+  display: none;
+}
+
+.en {
+  display: block;
+}
+
 /* AUTHOR POPUP */
 
 .author-popup {
