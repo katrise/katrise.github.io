@@ -1,0 +1,224 @@
+@media (max-width: 1120px) {
+
+  .popup-content > .rect1 {
+    right: 50px;
+  }
+
+  .popup-content > .rect2 {
+    right: -100px;
+  }
+
+  .popup-content > .rect3 {
+    right: 300px;
+  }
+
+  .popup-all-content {
+    right: 100px;
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
+    color: #000000;
+  }
+
+  .quote_btn-container {
+    display: block;
+  }
+
+
+  .ring_section .ring_container .detail-box {
+    margin-bottom: 45px;
+  }
+
+  .price_section .price_container .box {
+    height: 450px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .popup-all-content {
+    width: 100%;
+    top: auto;
+    right: auto;
+    flex-direction: column-reverse;
+  }
+
+  .popup-all-content > img {
+    object-fit: contain;
+    height: 400px;
+  }
+
+  .popup-inner-content {
+    padding-inline: 30px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .hero_area {
+    /* background-position: top left; */
+    height: auto;
+  }
+
+  .slider_section {
+    height: 600px;
+    padding: 0;
+  }
+
+  .landing-background {
+    background: linear-gradient(3216deg, #14213D 63%, rgba(255,0,0,0) 63%) 100% 100% / 100% 61%, 
+                linear-gradient(0, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 63% / 100% 38%;
+    background-repeat: no-repeat;
+  }
+
+  .detail_box {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cadets-background {
+    background: linear-gradient(291deg, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 26% / 136% 21%,
+    linear-gradient(0, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 100% / 100% 93%,
+    linear-gradient(349deg, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 14% / 47% 20%;
+    background-repeat: no-repeat;
+  }
+
+  .cadets-content {
+    padding-block: 20px;
+  }
+
+  .zemitana-container {
+    height: fit-content;
+  }
+
+  .vef-section .about_cbg_contain{
+    position: unset;
+  }
+
+  .vef-background {
+    background: 
+    linear-gradient(157deg, #233A6C 63%, rgba(255,0,0,0) 61%) 111% 16% / 53% 154%,    
+    linear-gradient(191deg, #233A6C 63%, rgba(255,0,0,0) 63%) 0 0 / 53% 146%;
+    background-repeat: no-repeat;
+  }
+
+  .slider__contents {
+    padding: 3rem 2rem;
+  }
+
+  .slider__contents > img {
+    padding-top: 40px;
+  }
+
+  .slider {
+    overflow: visible;
+    margin-bottom: 40px;
+  }
+
+  .ce-background {
+    background: linear-gradient(204deg, #233A6C 63%, rgba(255,0,0,0) 63%) 100% 96% / 238% 43%,    
+    linear-gradient(0, #233A6C 63%, rgba(255,0,0,0) 63%) 102% -223% / 100% 86%;
+    background-repeat: no-repeat;
+  }
+
+  .ce-section .en, .ce-section .lv {
+    margin-bottom: 10px;
+  }
+
+  .contact_section button {
+    margin-bottom: 45px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .contact_section form {
+    padding: 0;
+  }
+
+  .client_section {
+    padding-bottom: 0;
+  }
+
+  .client_section .client_container {
+    flex-direction: column;
+  }
+
+  .client_section .client_container .client-id {
+    width: auto;
+  }
+
+  .client_section .client_container .detail-box {
+    margin-top: 35px;
+    width: auto;
+  }
+
+  .contact_section .map_container {
+    height: 350px;
+    padding: 0;
+  }
+
+  .info_section .col-md-3 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .info_section .info_container .info_contact {
+    padding: 35px 0;
+  }
+
+  .info_section .info_form form input {
+    width: 100%;
+  }
+
+  .ring_section {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .slider_section .detail_box {
+    text-align: center;
+  }
+
+  .slider_section .detail_box h1 {
+    font-size: 4rem;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .slider_section .detail_box h1 {
+    font-size: 3rem;
+  }
+
+  .slider_section .detail_box h2 {
+    font-size: 1.8rem;
+  }
+
+  .heading_container h2::before {
+    display: none;
+  }
+}
+@media (max-width: 360px) {}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
